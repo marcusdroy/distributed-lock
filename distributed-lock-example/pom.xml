@@ -6,9 +6,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.github.alturkovic</groupId>
+    <groupId>com.github.marcusdroy</groupId>
     <artifactId>distributed-lock</artifactId>
-    <version>1.3.0</version>
+    <version>1.3.1</version>
   </parent>
 
   <artifactId>distributed-lock-example</artifactId>
@@ -20,7 +20,7 @@
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>com.github.alturkovic</groupId>
+      <groupId>com.github.marcusdroy</groupId>
       <artifactId>distributed-lock-jdbc</artifactId>
     </dependency>
     <dependency>
@@ -32,4 +32,11 @@
       <artifactId>h2</artifactId>
     </dependency>
   </dependencies>
+   <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/marcusdroy/distributed-lock</url>
+    </repository>
+  </distributionManagement>
 </project>
